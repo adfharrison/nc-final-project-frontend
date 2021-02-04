@@ -39,7 +39,7 @@ function Main(props) {
     let storageUserLocation = JSON.parse(localStorage.getItem('centre'))
     let storageSavedDetails = JSON.parse(localStorage.getItem('savedDetails'))
     let storageContacts = JSON.parse(localStorage.getItem('contacts'))
-    let userDetails = JSON.parse(localStorage.getItem('localUser'))
+    // let userDetails = JSON.parse(localStorage.getItem('localUser'))
 
     const [savedDetails, setSavedDetails] = useState(false)
     const [startedJourney, setStartedJourney] = useState(false)
